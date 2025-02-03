@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "playground.hierarchy.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44358",
+      "path": "../../../src/playground.hierarchy.Web/playground.hierarchy.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
